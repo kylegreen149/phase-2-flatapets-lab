@@ -6,7 +6,7 @@ function NewPetForm() {
         <input type="text" name="name" placeholder="Pet name" />
         <input type="text" name="image" placeholder="Image URL" />
         <input type="text" name="animal_type" placeholder="Animal type" />
-        <select name="fromPetShop" onChange={(event) => console.log(event.target.name)}>
+        <select name="fromPetShop">
           <option value="true">From a Pet Shop</option>
           <option value="false">From the wild</option>
         </select>
