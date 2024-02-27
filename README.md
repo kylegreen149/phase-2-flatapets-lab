@@ -14,7 +14,7 @@ Make sure to open [http://localhost:4000/pets](http://localhost:4000/pets) in th
 
 ## What You Already Have
 
-The `App` component holds three children. `Header`, `SearchBar`, and `PetsContainer`. `Header` and `SearchBar` have some starter code in them already. The `PetsContainer` component will render all `Pet` components.
+The `App` component holds two children: `Header` and `PetPage`. The `PetPage` component holds three children: `NewPetForm`, `Search` and `PetList`. These components have some starter code in them already. The `PetList` component will render all `Pet` components.
 
 All of the code to style the page has been written for you, meaning that you should be adding to the code rather than editing it; however, if your finished product has some styling issues, don't worry too much about it.
 
